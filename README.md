@@ -3,7 +3,8 @@
 
 This branch contains my submission for the GSoC evaluation task for the Project- "Automating text recognition and transcription of historical documents with weighted convolutional - recurrent architectures and LLM integration."
 
-All files related to my implementation are located in the  folder.
+All files related to my implementation are located in the folder -Evaluation_Test_Asmita.
+Main code file name: OCR_on_Printed_Historical_Text_final_code
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
