@@ -1,3 +1,12 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## GSoC 2026 Evaluation Submission – Asmita Paul
+
+This branch contains my submission for the GSoC evaluation task for the Project- "Automating text recognition and transcription of historical documents with weighted convolutional - recurrent architectures and LLM integration."
+
+All files related to my implementation are located in the  folder.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![thumbnail](https://github.com/user-attachments/assets/b0aa865c-416c-4a3a-92be-56a1a77c8f4e)
 # RenAIssance
 The analysis of historical documents is a critical yet costly method in the Humanities. To reduce these costs, AI technology, specifically OCR (Optical Character Recognition), has started to be utilized. However, for many years, there was a lack of accurate OCR tools for Spanish documents from the Renaissance period, despite their academic importance. To address this issue, the HumanAI Foundation launched the **RenAIssance** project, where contributors implement accurate OCR models using various approaches.
