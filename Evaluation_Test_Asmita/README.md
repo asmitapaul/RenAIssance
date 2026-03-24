@@ -19,7 +19,7 @@ probability map into a binary mask, DBNet introduces the concept of a learnable 
 map.This allows the model to adaptively determine decision boundaries at each pixel
 location.
 
-**Differrentiable Binarization:** Traditional binarization applies a hard threshold:
+**Differentiable Binarization:** Traditional binarization applies a hard threshold:
 
 $$
 B(x,y) = \begin{array}{ll}
@@ -28,7 +28,7 @@ B(x,y) = \begin{array}{ll}
 \end{array}
 $$
 
-However, this makes it non-differrentiable and thus non-trainable.
+However, this makes it non-differentiable and thus non-trainable.
 The innovation of the DBNet Model is the use of the following approximation:
 
 $$
