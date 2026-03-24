@@ -169,7 +169,7 @@ blanks to produce the final output sequence.The final prediction is obtained by
 
 * NOTE: CRNN **does not require character-level alignment** between the input image and
 the output text.Older OCR models needed character-level labelled datasets.CRNN
-instead performs sequence recognition directly- this makes training dataset peperation
+instead performs sequence recognition directly- this makes training dataset preparation
 easier.
 
 
