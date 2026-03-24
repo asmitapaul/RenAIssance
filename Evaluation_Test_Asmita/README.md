@@ -130,7 +130,7 @@ image.Thus, the model effectively reads the image left to right.
 </p>
 
 * The feature maps are converted into a **sequence of feature vectors**- by concatenating
-the corrosponding columns of all feature maps together to form a feature vector. Thus,
+the corresponding columns of all feature maps together to form a feature vector. Thus,
 this converts image data into sequential data.
 
 * CRNN removes the fully connected layers used in traditional CNNs and uses only
