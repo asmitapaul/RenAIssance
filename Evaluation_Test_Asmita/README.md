@@ -187,9 +187,9 @@ segmentation of characters- thus **character level annotations are not required*
    
 3. The model can handle variable length sequences naturally.
 
-**Reference**: Shi, Bai & Yao (2015)
-An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its
-Application to Scene Text Recognition
+**Reference**:  
+Shi, Bai & Yao (2015)  
+*An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition*  
 https://arxiv.org/abs/1507.05717
 
 
@@ -214,13 +214,12 @@ The **Deep Text Recognition Benchmark** framework provides several downloadable 
 SynthText, which contain millions of generated word images rendered using a wide
 variety of fonts, backgrounds, and distortions.
 
-A **Four-stage Scene Text Recognition framework** was introduced in the benchmark paper :
-Baek et.al (2019)
-What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis
-https://arxiv.org/pdf/1904.01906
+A **Four-stage Scene Text Recognition framework** was introduced in the benchmark paper : Baek et.al (2019)  
+*What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis*  
+https://arxiv.org/pdf/1904.01906  
 
-The framework the paper described (and the Structure followed by the Deep Text Recognition Framework) is as follows:
-Transformation → FeatureExtraction → SequenceModeling → Prediction
+The framework the paper described (and the Structure followed by the Deep Text Recognition Framework) is as follows:  
+Transformation → Feature Extraction → Sequence Modeling → Prediction
 
 **What is the Transformation stage?**
 
@@ -233,7 +232,7 @@ cropped line images from scanned documents where the text is largely horizontal 
 well aligned. Therefore, a TPS transformation is not expected to significantly affect
 recognition performance.
 
-Additionally, a TPS layer is not present in the CRNN architecture intoduced in the Shi, Bai &
+Additionally, a TPS layer is not present in the CRNN architecture introduced in the Shi, Bai &
 Yao (2015) paper.
 
 For these two reasons, I am **not including a Transformation layer in my model architecture**.
@@ -290,7 +289,7 @@ N = Number of characters in the ground truth
 
 ### Word Error Rate (WER):
 Measures how many words in the predicted text are wrong compared to the ground truth.
-Uses the same formuala as CER, just words are the units of measurement as opposed to
+Uses the same formula as CER, just words are the units of measurement as opposed to
 individual characters.
 
 
