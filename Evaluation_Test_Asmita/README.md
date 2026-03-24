@@ -12,7 +12,7 @@ I have implemented a three-stage OCR pipeline to address the problem statement i
 **Basic Idea :** DBNet approaches scene text detection as a pixel-wise segmentation (into text/
 not text) problem. Given an input image, a convolutional backbone (e.g., ResNet) is used to
 extract deep feature maps. A segmentation head is then used to predict a probability map
-where each value corrosponding to a pixel represents the likelihood of the belonging to a
+where each value corrosponding to a pixel represents the likelihood of the pixel belonging to a
 text region.
 Instead of using a fixed threshold (like more traditional approaches) to convert this
 probability map into a binary mask, DBNet introduces the concept of a learnable threshold
